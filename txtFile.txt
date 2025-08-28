@@ -30,3 +30,6 @@ $ cd 'a:/2.coding roadmap/M1. c Language/P1B_Manmay_M250868CS'
 
 Manmay Ghosh@MANMAY MINGW64 /a/2.coding roadmap/M1. c Language/P1B_Manmay_M250868CS (main)
 $ tar -czf "P1B_Manmay_M250868CS.gz" *.c *.h Makefile
+
+6. open .gz zip file
+tar -xzf P1B_Manmay_M250868CS.gz
