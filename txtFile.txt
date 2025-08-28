@@ -25,3 +25,8 @@ Including this header makes code clearer and safer.
 Purpose: Closes the conditional started by #ifndef.
 
 2.  Bookings.c
+5. Manmay Ghosh@MANMAY MINGW64 /a/2.coding roadmap/M1. c Language
+$ cd 'a:/2.coding roadmap/M1. c Language/P1B_Manmay_M250868CS'
+
+Manmay Ghosh@MANMAY MINGW64 /a/2.coding roadmap/M1. c Language/P1B_Manmay_M250868CS (main)
+$ tar -czf "P1B_Manmay_M250868CS.gz" *.c *.h Makefile
