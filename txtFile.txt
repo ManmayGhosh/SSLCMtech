@@ -1,0 +1,27 @@
+1.  Bookings.h
+tell me in the entire page whats the use of
+#ifndef BOOKINGS_H
+#define BOOKINGS_H
+#include <stdbool.h>
+#endif
+
+These lines are called header guards and a standard library include. Here’s what each does:
+
+1. #ifndef BOOKINGS_H and #define BOOKINGS_H
+Purpose: Prevents the contents of this header file from being included multiple times in a single compilation unit.
+How:
+#ifndef BOOKINGS_H checks if BOOKINGS_H is not defined.
+If not, it defines BOOKINGS_H and includes the file’s contents.
+If already defined, the file’s contents are skipped.
+Why is this important?
+Including a header multiple times can cause redefinition errors. Header guards solve this.
+
+2. #include <stdbool.h>
+Purpose: Allows you to use the bool type and the true/false constants in C.
+Why:
+C did not originally have a boolean type.
+Including this header makes code clearer and safer.
+3. #endif
+Purpose: Closes the conditional started by #ifndef.
+
+2.  Bookings.c
